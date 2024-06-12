@@ -10,7 +10,7 @@
     --bg-color: #F4F6FA;
     --purple: #A729F5;
     --white: #FFFFFF;
-    --primary-text-color: #313Z51;
+    --primary-text-color: #313E51;
     --secondary-text-color: #626C7F;
     --button-bg: #FFFFFF;
     --shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
@@ -21,6 +21,17 @@
     
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
     --bg-desktop: url(./assets/images/pattern-background-desktop-light.svg);
+}
+
+body.escuro {
+    --bg-color: #313E51;
+    --primary-text-color: #FFFFFF;
+    --secondary-text-color: #ABC1E1;
+    --button-bg: #3B4B66;
+    --shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
+
+    --bg-mobile: url(./assets/images/pattern-background-mobile-dark.svg);
+    --bg-desktop: url(./assets/images/pattern-background-desktop-dark.svg);
 }
 
 body {
