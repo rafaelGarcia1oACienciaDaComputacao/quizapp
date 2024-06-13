@@ -18,7 +18,9 @@
     --bg-css: #E0FDEF;
     --bg-javascript: #EBF0FF;
     --bg-acessibilidade: #F6E7FF;
-    
+    --green: #26D782;
+    --red: #EE5454;
+
     --bg-mobile: url(../../assets/images/pattern-background-mobile-light.svg);
     --bg-desktop: url(../../assets/images/pattern-background-desktop-light.svg);
 }
@@ -154,7 +156,12 @@ main {
 }
 
 .alternativas label:has(input:checked) {
-    
+    outline: 2px solid var(--purple);
+
+    & span {
+        background: var(--purple);
+        color: var(--white)
+    }
 }
 
 .alternativas input{
