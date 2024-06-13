@@ -8,6 +8,8 @@
 
 :root {
     --bg-color: #F4F6FA;
+    --bg-span: #F4F6Fa;
+    --color-spam: #626C7F;
     --purple: #A729F5;
     --purple-hover: rgba(167, 41, 245, 0.7);
     --white: #FFFFFF;
@@ -28,6 +30,7 @@
 
 body.escuro {
     --bg-color: #313E51;
+    --color-spam: #313E51;
     --primary-text-color: #FFFFFF;
     --secondary-text-color: #ABC1E1;
     --button-bg: #3B4B66;
@@ -204,14 +207,14 @@ main {
 .alternativas div span {
     width: 40px;
     height: 40px;
-    background: var(--bg-color);
+    background: var(--bg-span);
     display: block;
 
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    color: var(--secondary-text-color);
+    color: var(--color-spam);
     flex-shrink: 0;
 }
 
